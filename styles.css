@@ -33,7 +33,7 @@ a {
     height: 550px;
     width: 330px;
     background-color: var(--very-dark-blue-card-BG);
-    margin: 10rem auto 3rem auto;
+    margin: 8rem auto 3rem auto;
     display: grid;
     place-items: center;
     padding: 1.3rem;  
