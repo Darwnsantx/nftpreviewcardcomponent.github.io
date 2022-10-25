@@ -33,11 +33,12 @@ a {
     height: 550px;
     width: 330px;
     background-color: var(--very-dark-blue-card-BG);
-    margin: 8rem auto 3rem auto;
+    margin: 8.20rem auto 3rem auto;
     display: grid;
     place-items: center;
     padding: 1.3rem;  
     border-radius: .98rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
 }
 
 .card-image {
@@ -165,4 +166,36 @@ li:nth-child(2) {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media(min-width: 600px) {
+    .card-container {
+        height: 590px;
+        width: 356px; 
+        padding: 1.4rem 1.5rem 0;
+        align-items: flex-start;
+    }
+
+    .card-image {
+        max-width: 100%;
+        width: 304px;
+        height: 303px;
+        margin-bottom: 0;
+    }
+
+    .card-information p {
+        font-size: 1.16rem;
+    }
+
+    ul {
+        padding-bottom: 1.5rem;
+    }
+    
+    ul li {
+        font-size: 1.02rem;
+    }
+
+    .card-author {
+        font-size: 1.03rem;
+    }
 }
